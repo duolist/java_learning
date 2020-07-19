@@ -1,10 +1,5 @@
 package CodeWars;
 
-import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
-
 public class FakeBinary {
     public static String fakeBin(String numberString) {
         StringBuilder result = new StringBuilder();
