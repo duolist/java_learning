@@ -10,12 +10,12 @@ public class FakeBinary {
         StringBuilder result = new StringBuilder();
         numberString.chars()
                 .map(ch -> {
-            char tmpChar = '0';
-            if (ch > 52) {
-                tmpChar = '1';
-            }
-            return tmpChar;
-        })
+                    char tmpChar = '0';
+                    if (ch > 52) {
+                        tmpChar = '1';
+                    }
+                    return tmpChar;
+                })
                 .forEach(example -> result.append((char) example));
         return result.toString();
 
