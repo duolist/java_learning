@@ -10,5 +10,18 @@ public class Main {
         System.out.println();
         //Commit on Ubuntu desktop
 
+//        Integer [] myIntegerArray = {-1, -5, 6, -17, 17, 28, -28};
+//        List<Integer> testList = Arrays.stream(myIntegerArray)
+//                .distinct()
+//                .collect(Collectors.toList());
+//        System.out.println(testList.toString());
+
+
+
+
+
+
+
+
     }
 }
