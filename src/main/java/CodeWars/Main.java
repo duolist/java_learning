@@ -8,6 +8,7 @@ public class Main {
 
         System.out.println(FakeBinary.fakeBin("0123456789"));
         System.out.println();
+        //Commit on Ubuntu desktop
 
     }
 }
