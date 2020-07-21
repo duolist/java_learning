@@ -10,7 +10,7 @@ public class Main {
 //        System.out.println();
         //Commit on Ubuntu desktop
 
-
+        System.out.println(Arrays.toString(CountMonkeys.monkeyCount(10)));
 
 //        Integer [] myIntegerArray = {-1, -5, 6, -17, 17, 28, -28};
 //        List<Integer> testList = Arrays.stream(myIntegerArray)
