@@ -1,6 +1,7 @@
 package lambda_functionalInterfaces_0;
 
 import java.util.Comparator;
+import java.util.function.Function;
 
 public class Main {
     public static void staticTest() {
@@ -43,13 +44,10 @@ public class Main {
         );
 //        Main.lambdaTest(new TestInterfaceClass().returnerMethod(4,5));
 
-//        TestInterface justSumm = new TestInterface() {
-//            @Override
-//            public int returnerMethod(int i, int y) {
-//                return i * y;
-//            }
-//        };
-
+        TestInterface justSumm = Integer::sum;
+        TestInterface justPow = (i, y) -> i * y;
+        System.out.println(justSumm.returnerMethod(2,3));
+        System.out.println(justPow.returnerMethod(2,3));
 
 //
 //        sw.switchOn();
