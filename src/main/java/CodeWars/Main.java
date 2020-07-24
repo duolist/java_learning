@@ -11,6 +11,10 @@ public class Main {
 //        System.out.println(FakeBinary.fakeBin("0123456789"));
 //        System.out.println();
         //Commit on Ubuntu desktop
+        String str0 = "Aima";
+        String str1 = "Bima";
+        System.out.println(str0.compareTo(str1));
+
 
 
 
