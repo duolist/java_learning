@@ -14,6 +14,11 @@ public class Main {
         String str0 = "Aima";
         String str1 = "Bima";
         System.out.println(str0.compareTo(str1));
+        int[] intarr = {0,1,2,3,4,5,6,7,8,15,10};
+        Integer[] integerArr = Arrays.stream(intarr).boxed().toArray(Integer[]::new);
+        List<Integer> myIntlist = new ArrayList<>(Arrays.asList(2, 5));
+        Collections.addAll(myIntlist, integerArr);
+        System.out.println(myIntlist.toString());
 
 
 

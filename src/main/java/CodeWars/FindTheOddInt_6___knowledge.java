@@ -3,7 +3,7 @@ package CodeWars;
 import java.beans.Expression;
 import java.util.*;
 
-public class FindTheOddInt_6 {
+public class FindTheOddInt_6___knowledge {
 
 
     public static int findIt(int[] a) {
