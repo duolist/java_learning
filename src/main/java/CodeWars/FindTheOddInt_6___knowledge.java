@@ -9,6 +9,7 @@ public class FindTheOddInt_6___knowledge {
     public static int findIt(int[] a) {
 
         Integer[] integers = Arrays.stream(a).boxed().toArray(Integer[]::new);
+        //var -> new  Integer[var]
 
         Map<Integer, Integer> myMap = new HashMap<>();
         for (int var1 : a) {

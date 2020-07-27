@@ -16,11 +16,11 @@ public class MyList {
 
     public void deleteFromMyList (Deleter d) {
         int arrSize = arList.size();
-        for (int i = 0; i < arrSize; i++) {
+        for (int i = 0; i < arList.size(); i++) {
             if (d.deleteIF(arList.get(i))) {
                 arList.remove(i);
                 i--;
-                arrSize--;
+//                arrSize--;
             }
 
         }
