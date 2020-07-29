@@ -1,9 +1,6 @@
 package Collections;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 import java.util.function.Function;
 
 public class Main {
@@ -52,7 +49,6 @@ public class Main {
 
             System.out.println(Main.testOfDeleter(5, i -> i < 0));
         }
-
 
 
 

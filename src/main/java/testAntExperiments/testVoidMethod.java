@@ -21,11 +21,27 @@ public class testVoidMethod {
     public void setAge(Integer age) {
         this.age = age;
     }
+    
+    //          Static fabric methods
+
+    public static testVoidMethod creator () {
+        return new testVoidMethod();
+    }
+
+    public static testVoidMethod putname (testVoidMethod tmp, String name) {
+        return tmp;
+    }
+    
+    
+    //          CONSTRUCTORS 
 
     public testVoidMethod(String name, Integer age) {
         this.name = name;
         this.age = age;
 
+    }
+    public testVoidMethod () {
+        
     }
     // Extended methods
 

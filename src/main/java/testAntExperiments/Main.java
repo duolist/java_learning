@@ -8,5 +8,7 @@ public class Main {
         me.addMisterToName();
         System.out.println(me.getName());
 
+        testVoidMethod another = testVoidMethod.creator();
+
     }
 }
