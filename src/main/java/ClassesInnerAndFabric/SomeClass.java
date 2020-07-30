@@ -1,23 +1,20 @@
-package ClassesInternalAndIncluded;
-
-import sun.nio.cs.Surrogate;
+package ClassesInnerAndFabric;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Random;
 
-public class InternalClass {
+public class SomeClass {
     private static Integer idCount = 0;
     public Integer membersCount = 0;
-    public List<Internal> members = new ArrayList<>();
+    public List<InternalClass> members = new ArrayList<>();
 
-    public class Internal {
+    public class InternalClass {
         //      FIELDS
         private Integer id;
 
         //      STANDARD METHODS
-        public Internal() {
+        public InternalClass() {
             this.id = idCount + 1;
             membersCount++;
             idCount++;
@@ -30,26 +27,33 @@ public class InternalClass {
 
 
         //      SPECIAL METHODS
-        public boolean belongTo(InternalClass var) {
-            return InternalClass.this == var;
+
+        /**
+         * Проверяет, принадлежит ли текущий объект к передаваемому экземпляру внешнего класса
+         *
+         * @param var эксземпляр внешнего класса
+         * @return boolean
+         */
+        public boolean belongTo(SomeClass var) {
+            return SomeClass.this == var;
         }
     }   //      END OF CLASS INTERNAL
 
-    public Internal adder() {
-        return new Internal();
+    public InternalClass adder() {
+        return new InternalClass();
     }
 
     @Override
     public String toString() {
         return "InternalClass{" +
                 "membersCount = " + membersCount + "\n" +
-                ", members = " + Arrays.toString(members.stream().map(Internal::getId).toArray()) +
+                ", members = " + Arrays.toString(members.stream().map(InternalClass::getId).toArray()) +
                 '}';
     }
 
     public void adder(Integer value) {
         for (int i = 0; i < value; i++) {
-            new Internal();
+            new InternalClass();
         }
 
 

@@ -1,6 +1,6 @@
-package ClassesInternalAndIncluded;
+package ClassesInnerAndFabric;
 
-public class IncludedClass {
+public class InnerClass {
 
     private static class Included {
         final String name;
