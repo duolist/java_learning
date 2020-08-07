@@ -49,13 +49,10 @@ public class Main {
         System.out.println(justSumm.returnerMethod(2,3));
         System.out.println(justPow.returnerMethod(2,3));
 
+        System.out.println("////////////////");
+
 //
 //        sw.switchOn();
-
-
-
-
-
 
     }
 

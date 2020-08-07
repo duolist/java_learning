@@ -3,10 +3,10 @@ package abstractAndChildClasses;
 public class Main {
     public static void main(String[] args) {
 
-        AbstractClass some = new ConcreteClass();
-
-        System.out.println("-------------------------------------");
-        some.abstractMethod();
+//        AbstractClass some = new ConcreteClass();
+//
+//        System.out.println("-------------------------------------");
+//        some.abstractMethod();
 
     }
 }
