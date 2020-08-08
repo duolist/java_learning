@@ -8,8 +8,33 @@ public class Main {
 //        System.out.println("-------------------------------------");
 //        some.abstractMethod();
 
+    BClass testClass = new ChClass();
+
+
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abstract class AbstractClass {
     public AbstractClass() {

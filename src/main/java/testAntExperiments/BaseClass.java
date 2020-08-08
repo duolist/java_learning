@@ -1,7 +1,10 @@
 package testAntExperiments;
 
-public class BaseClass {
+import java.util.ArrayList;
+import java.util.List;
 
+public class BaseClass {
+//    public final List<Integer> LIST = new ArrayList<>();
     private String id;
     private Integer age;
     public String name;

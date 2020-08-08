@@ -9,13 +9,17 @@ public class Main {
 //        System.out.println(me.getName());
 //
 //        testVoidMethod another = testVoidMethod.creator();
-        DerivedClass derivedClass = new DerivedClass(7, "Name", "Annotation");
-        BaseClass baseClass = (BaseClass) derivedClass;
 
-        System.out.println(baseClass.toString());
-        System.out.println(baseClass instanceof BaseClass);
-        System.out.println(baseClass instanceof DerivedClass);
-        System.out.println();
+
+//        DerivedClass derivedClass = new DerivedClass(7, "Name", "Annotation");
+//        BaseClass baseClass = (BaseClass) derivedClass;
+//        BaseClass baseClass1 = new BaseClass();
+
+//        System.out.println(baseClass.toString());
+//        System.out.println(baseClass instanceof BaseClass);
+//        System.out.println(baseClass instanceof DerivedClass);
+//        System.out.println();
+
 
 
 
